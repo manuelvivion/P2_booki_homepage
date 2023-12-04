@@ -158,7 +158,7 @@ h6{
     background-color: white;
     border-radius: 20px;
     padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.15));
 }
 
 .card img {
@@ -181,6 +181,8 @@ h6{
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-top:40px;
+    margin-bottom:40px;
 }
 
 .hebergements-and-populaires section {
@@ -193,6 +195,35 @@ h6{
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.hebergements-cards a{
+    width:30%;
+}
+
+.hebergements-cards .card{
+ width:100%;
+ margin : 10px 10px;
+}
+
+.hebergements-cards p,.hebergements-cards h4{
+    margin : 4px 0px;
+}
+
+.hebergements-cards img{
+    width:100%;
+    height:130px;
+    max-width:inherit;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 /****** Populaires ***********/
@@ -240,9 +271,41 @@ h6{
     margin-bottom: 5px;
 }
 
+/******* activites **********/
 
+.activites{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:30px;
+}
+.activites  .activites-cadre-photo{
+    height:85%;
+}
+.activites img{
+    height:100%;
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.activites a{
+    width : 23%;
+}
+.activites .card{
+    padding: 0px 0px;
+    height:450px;
+}
 
+.activites .card-content{
+    margin-left: 15px;
+}
 
+.section-activites{
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
