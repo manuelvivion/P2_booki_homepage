@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-
+<!--------------------- Head -------------------------->
 <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
@@ -10,24 +10,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" >
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" >
-
+    
     <link rel="stylesheet" href="./css/style.css" >
 </head>
+<!--------------------- End Head -------------------------->
 
+<!---------------------  -------------------------->
+
+<!--------------------- BODY -------------------------->
 <body>
+    <!--------------------- Main Container (div) -------------------------->
     <div class="main-container">
+
+        <!--------------------- Header  -------------------------->
         <header>
             <div>
                 <img src="images/logo/booki.png" alt="logo Booki" >
-            </div>
+            
+            </div> 
+            <!--------------------- NAV BAR -------------------------->
             <nav>
                 <a href="#hebergements">Hébergements</a>
                 <a href="#activites">Activités</a>
-            </nav>
-        </header>
+            </nav><!--------------------- END NAV BAR -------------------------->
+        </header><!--------------------- End HEADER -------------------------->
+        
+
+        <!--------------------- MAIN -------------------------->
         <main>
+            <!---------------------  FORM AND FIlTERS-------------------------->
             <section class="section-recherche">
-                <div>
+                <div class="slogan">
                     <h1>
                         Trouvez votre hébergement pour des vacances de rêve
                     </h1>
@@ -64,9 +77,11 @@
                     <i class="fa-solid fa-info"></i>
                     <h6>Plus de 500 logements sont disponibles dans cette ville</h6>
                 </div>
-            </section>
+            </section><!--------------------- END FORM END FILTERS -------------------------->
 
+            <!--------------------- HEBERGEMENTS + POPULAIRES -------------------------->
             <div class="hebergements-and-populaires">
+                <!--------------------- HEBERGEMENTS -------------------------->
                 <section class="hebergements" id="hebergements">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
@@ -217,8 +232,9 @@
                     <a href="#">
                         <h3>Afficher plus</h3>
                     </a>
-                </section>
+                </section> <!--------------------- END HEBERGEMENTS  -------------------------->
 
+                <!--------------------- POPULAIRES  -------------------------->
                 <section class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
@@ -298,9 +314,10 @@
                             </article>
                         </a>
                     </div>
-                </section>
-            </div>
+                </section> <!--------------------- END POPULAIRES  -------------------------->
+            </div> <!--------------------- END HEBERGEMENT + POPULAIRES -------------------------->
 
+            <!--------------------- ACTIVITES -------------------------->
             <section class="section-activites" id="activites">
                 <h2 class="section-title">Activités à Marseille</h2>
                 <div class="activites">
@@ -352,8 +369,11 @@
                         </article>
                     </a>
                 </div>
-            </section>
-        </main>
+            </section><!--------------------- END ACTIVITES  -------------------------->
+        
+        </main><!--------------------- END MAIN -------------------------->
+
+        <!--------------------- FOOTER -------------------------->
         <footer>
             <div class="div-footer">
                 <h3>À propos</h3>
@@ -385,10 +405,15 @@
                     <h4>Nous contacter</h4>
                 </a>
             </div>
-        </footer>
-    </div>
 
+        </footer><!--------------------- END FOOTER -------------------------->
+
+    </div> <!--------------------- End Main-container -------------------------->
+
+    <!-- download Font   awesome library after the whole page -->
     <script src="https://kit.fontawesome.com/365a5d9ce1.js" crossorigin="anonymous"></script>
-</body>
+
+</body> <!--------------------- End BODY -------------------------->
+
 
 </html>
