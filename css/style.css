@@ -115,6 +115,7 @@ nav a:hover{color: var(--main-color);border-top : 2px solid var(--main-color);}
 
 input[type=text]::placeholder{
     opacity: 1;
+    color:#000;
 }
 
 .section-recherche form input[type=button] { /* hidden on mobile */
