@@ -78,7 +78,7 @@ nav a:hover{color: var(--main-color);border-top : 2px solid var(--main-color);}
     margin: 0px;
     margin-bottom: 8px;
 }
-.section-recherche h6{
+.section-recherche p{
     margin: 0px;
 }
 .section-recherche div {
@@ -113,8 +113,34 @@ nav a:hover{color: var(--main-color);border-top : 2px solid var(--main-color);}
     border-right:none;
 }
 
-input[type=text]::placeholder{
+/* input[type=text]::placeholder{
     opacity: 1;
+} */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000;
+    opacity:  1;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #000;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #000;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #000;
+    opacity:  1;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:    #000;
+    opacity:  1;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+    color:    #000;
+    opacity:  1;
 }
 
 .section-recherche form input[type=button] { /* hidden on mobile */
@@ -191,7 +217,7 @@ input[type=text]::placeholder{
     align-items: baseline;
 }
 
-.zone-info h6{ margin-bottom: 5px;}
+.zone-info p{ margin-bottom: 5px;}
 
 .zone-info i{
     margin-top: 0px;
@@ -257,7 +283,7 @@ input[type=text]::placeholder{
 
 
 
-.hebergements-cards p,.hebergements-cards h4{margin : 5px 0px;}
+.hebergements-cards p,.hebergements-cards h4,.hebergements-cards h3{margin : 5px 0px;}
 
 .hebergements-cards img{
     width:100%;
